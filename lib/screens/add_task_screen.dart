@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AddTaskScreen extends StatelessWidget {
-  String task;
 
   @override
   Widget build(BuildContext context) {
@@ -29,9 +28,7 @@ class AddTaskScreen extends StatelessWidget {
             textAlign: TextAlign.center,
             autofocus: true,
             autocorrect: true,
-            onChanged: (value) {
-              task = value;
-            },
+            onChanged: (value) {},
           ),
           FlatButton(
             onPressed: () {},
