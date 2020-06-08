@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:toodoo/widgets/tasks_list.dart';
 
 class TasksScreen extends StatelessWidget {
   @override
@@ -55,6 +56,7 @@ class TasksScreen extends StatelessWidget {
                     topLeft: Radius.circular(20),
                     topRight: Radius.circular(20)),
               ),
+              child: TasksList(),
             ),
           ),
         ],
